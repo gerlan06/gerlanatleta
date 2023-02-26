@@ -2,7 +2,9 @@
      margin: 0 ;
      padding: 0;
      box-sizing: border-box;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-family: 'Michroma', sans-serif;
+     font-size: 13px;
+     
 }
 
 .center{
@@ -107,10 +109,15 @@ section.luta h3{
 
 .luta-single h3{
     background-color:#333 ;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
 
 }
 .luta-single p{
     background-color: rgba(0,0,0,0.6) ;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
 }
 
 .luta-container img{
@@ -118,12 +125,21 @@ section.luta h3{
 }
 
 .caixa{
-    background-color: rgb(5, 5, 133);
+    background-color: rgba(0,0,0,0.6) ;
     padding: 20px 0 ;
     text-align: center;
     color: white;
 }
 
+.caixa h3{
+    font-size: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.caixa p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
+}
 footer{
     background-color: #333;
     text-align: center;
@@ -203,4 +219,6 @@ footer{
      .menu-mobile i{
         color: black;
      }
-}
+
+    
+    }
