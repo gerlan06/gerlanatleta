@@ -1,0 +1,206 @@
+*{
+     margin: 0 ;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    max-width: 1100px;
+    padding: 0 2%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+header{
+    background-color: rgba(0,0,0,0.6);
+    height: 40px;
+}
+
+.logo{
+    color: cornflowerblue ;
+    margin-top: 8px;
+    
+}
+
+.menu-container{
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.menu-container a.active-menu{
+    background-color: blue;
+}
+
+.menu-container a{
+    color: white;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 40px;
+    transition: 0.8s ;
+}
+
+.menu-container a:hover{
+    color: black;
+}
+
+.menu-container i{
+    color: black;
+}
+
+.capa{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.main{
+    position: relative;
+     
+     background-size: cover;
+     background-position: center; 
+     width: 100%;
+
+}
+
+
+
+section.luta{
+    background-color: rgb(56, 56, 248);
+    padding: 20px 0 ;
+    text-align: center;
+    color: white;
+   
+}
+
+section.luta h3{
+    text-transform: uppercase;
+}
+
+.luta-single{
+    text-align: left;
+
+}
+
+
+.luta-container{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.luta-container img{
+    display:block; 
+} 
+
+.luta-single{
+    background-color:rgba(0,0,0,0.6);
+    width: 32%;
+    margin-right: 1%;
+    padding: 50px 20px;
+}
+
+.luta-single h3{
+    background-color:#333 ;
+
+}
+.luta-single p{
+    background-color: rgba(0,0,0,0.6) ;
+}
+
+.luta-container img{
+    width: 100%;
+}
+
+.caixa{
+    background-color: rgb(5, 5, 133);
+    padding: 20px 0 ;
+    text-align: center;
+    color: white;
+}
+
+footer{
+    background-color: #333;
+    text-align: center;
+    padding: 8px;
+    color: white;
+}
+ 
+.menu-itens{
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 100%;
+    text-align: center;
+    background-color: #494848;
+    
+    display: block;
+    opacity: 0;
+    transition: 1s;
+
+}
+
+.menu-itens a{
+    display: block;
+    text-decoration: none;
+    color: white;
+
+}
+
+.menu-itens.show{
+    opacity: 1;
+
+}
+
+.menu-itens.hidde{
+    opacity: 0;
+}
+
+@media screen and (max-width: 600px){
+    .luta-single{
+        
+        width: 100% ;
+        margin-bottom: 20px;
+    }
+
+    .luta-container{
+        display: inline;
+    }
+
+    .luta-single h3{
+        text-align: center;
+    }
+
+    .luta-single p{
+        text-align: center;
+    }
+
+    
+}
+
+@media screen and (max-width: 1000px){
+    .menu-mobile{
+        width: 97%;
+         text-align: right;
+         display: block;
+     }
+ .menu-mobile i{
+    cursor: pointer;
+    font-size: 28px;
+    margin-top: 8px;
+ }
+
+     .menu-container{
+         display: none;
+     }
+
+     
+     .menu-mobile i{
+        color: black;
+     }
+}
