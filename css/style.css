@@ -206,8 +206,8 @@ footer a{
 
 .btn{
     display: inline-block;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     background-color: rgb(119, 118, 117);
     margin: 10px;
     border-radius: 30%;
@@ -220,7 +220,7 @@ footer a{
     color:#00000070
 }
 
-.capa, .luta-single{
+.capa, .luta-single, .caixa h3, .caixa p, .luta-single h3, .luta-single p{
     visibility: hidden;
 }
 
