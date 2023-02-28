@@ -8,7 +8,7 @@
      
 }
  body{
-    background-image: linear-gradient( -45deg,#28266f,#282878,#292982,#292b8c,#282c95,#282e9f,#272fa9);
+    background-image: linear-gradient( -45deg,#170000,#350a06,#56070c,#8f3d38);
  }
 
  .center{
@@ -113,7 +113,7 @@ section.main{
 
 .caixa{
     
-    background-image: linear-gradient(-90deg, #f1f1f1,#494848,#494848);
+    background-image: linear-gradient(-90deg, #3b2020,#2c2b2b);
     padding: 20px 0 ;
    
     color: white;
@@ -166,7 +166,7 @@ section.luta{
     
     padding: 20px 0 ;
     text-align: center;
-    color: white;
+    color: rgb(235, 217, 217);
     
    
 }
@@ -235,21 +235,21 @@ section.luta h3{
 
 
 .luta-single-container{
-    background-image: linear-gradient(45deg,  #f1f1f1,#494848,#494848,#494848);
+    background-image: linear-gradient(45deg,    #3b2020,#2c2b2b);
     display: flex;
     align-items: center;
 
 }
 
 .luta-single-container2{
-    background-image: linear-gradient(-45deg,  #f1f1f1,#494848,#494848,#494848);
+    background-image: linear-gradient(-45deg,  #3b2020,#2c2b2b);
     display: flex;
     align-items: center;
 
 }
 
 .luta-single-container3{
-    background-image: linear-gradient(45deg,  #f1f1f1,#494848,#494848,#494848);
+    background-image: linear-gradient(45deg,  #3b2020,#2c2b2b);
     display: flex;
     align-items: center;
 
