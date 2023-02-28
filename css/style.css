@@ -10,24 +10,18 @@
  body{
     background-image: linear-gradient( -45deg,#28266f,#282878,#292982,#292b8c,#282c95,#282e9f,#272fa9);
  }
-.center{
+
+ .center{
     max-width: 1100px;
     padding: 0 2%;
     display: flex;
     margin: 0 auto;
 }
 
-.menu-mobile{
-    display: none;
-}
-
-header{
-  
-    height: 40px;
-}
+/*MENU INICIO*/
 
 .logo{
-    color: cornflowerblue ;
+    color: white ;
     margin-top: 8px;
     
 }
@@ -60,21 +54,113 @@ header{
     color: black;
 }
 
+
+.menu-mobile{
+    display: none;
+}
+
+.menu-itens{
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 100%;
+    text-align: center;
+    background-color: #494848;
+    
+    display: block;
+    opacity: 0;
+    transition: 1s;
+
+}
+
+.menu-itens a{
+    display: block;
+    text-decoration: none;
+    color: white;
+
+}
+
+.menu-itens.show{
+    opacity: 1;
+
+}
+
+.menu-itens.hidde{
+    opacity: 0;
+}
+
+/*MENU FINAL */
+
+
+/*CAPA INICIO*/
+
 .capa{
     display: flex;
     flex-wrap: wrap;
 }
 
+/*CAPA FINAL*/
+
 section.main{
     position: relative;
-     
      background-size: cover;
      background-position: center; 
      width: 100%;
 
 }
 
+/*BIOGRAFIA INICIO*/
 
+.caixa{
+    
+    background-image: linear-gradient(-90deg, #f1f1f1,#494848,#494848);
+    padding: 20px 0 ;
+   
+    color: white;
+}
+
+.caixa-container{
+    display: flex;
+    align-items: center;
+}
+
+.caixa-container img{
+   
+    border-radius: 100%;
+    width: 40%;
+    animation: float 3s ease-in-out infinite;
+    filter: drop-shadow(10px 10px 10px #000000);
+}
+
+@keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+.caixa h3{
+    font-size: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+}
+
+.caixa p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.caixa-container ul{
+    text-align: left;
+   padding: 10%;
+}
+
+/*BIOGRAFIA FINAL*/
+
+/*PRINCIPAIS COMPETIÇÕES INICIO*/
 
 section.luta{
     
@@ -130,71 +216,51 @@ section.luta h3{
 
 
 .luta-single-container img{
-    width:50%;
+    width:40%;
+    filter: drop-shadow(10px 10px 10px #000000);
     
 }
 
+.luta-single-container2 img{
+    width:43%;
+    filter: drop-shadow(10px 10px 10px #000000);
+}
+
+.luta-single-container3 img{
+    width:40%;
+    filter: drop-shadow( 10px 10px 10px  #000000);
+}
+
+
+
 
 .luta-single-container{
+    background-image: linear-gradient(45deg,  #f1f1f1,#494848,#494848,#494848);
     display: flex;
     align-items: center;
 
 }
 
 .luta-single-container2{
+    background-image: linear-gradient(-45deg,  #f1f1f1,#494848,#494848,#494848);
     display: flex;
     align-items: center;
 
 }
 
-.luta-single-container2 img{
-   width: 670px;
-   left: 1000px;
-}
-
-.caixa{
-    
-    padding: 20px 0 ;
-   
-    color: white;
-}
-
-.caixa-container{
+.luta-single-container3{
+    background-image: linear-gradient(45deg,  #f1f1f1,#494848,#494848,#494848);
     display: flex;
     align-items: center;
+
+}
+.luta-single-container2 video{
+    filter: drop-shadow( 10px 10px 10px  #000000);
+
 }
 
-.caixa-container img{
-    border-radius: 100%;
-    width: 40%;
-    animation: float 3s ease-in-out infinite;
-}
+/*PRINCIPAIS COMPETIÇÕES FINAL*/
 
-@keyframes float {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-20px);
-    }
-  }
-
-.caixa h3{
-    font-size: 20px;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    text-align: center;
-}
-
-.caixa p{
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 17px;
-    text-align: center;
-}
-
-.caixa-container ul{
-    text-align: left;
-   padding: 10%;
-}
 
 footer{
     
@@ -218,35 +284,7 @@ footer a{
     width: 1000px;
 }
 
-.menu-itens{
-    position: absolute;
-    left: 0;
-    top: 40px;
-    width: 100%;
-    text-align: center;
-    background-color: #494848;
-    
-    display: block;
-    opacity: 0;
-    transition: 1s;
 
-}
-
-.menu-itens a{
-    display: block;
-    text-decoration: none;
-    color: white;
-
-}
-
-.menu-itens.show{
-    opacity: 1;
-
-}
-
-.menu-itens.hidde{
-    opacity: 0;
-}
 
 .btn i{
     line-height: 90px;
@@ -271,7 +309,7 @@ footer a{
     color:red;
 }
 
-.capa, .luta-single, .caixa h3, .caixa-container, .caixa-container img, .caixa p, .luta-single h3, .luta-single p{
+.capa, .luta-single-container, .luta-single-container2, .luta-single-container3, .caixa h3, .caixa-container, .caixa-container img, .caixa p, .luta-single h3, .luta-single p{
     visibility: hidden;
 }
 
@@ -305,11 +343,11 @@ footer a{
      }
  .menu-mobile i{
     cursor: pointer;
-    font-size: 28px;
+    font-size: 35px;
     margin-top: 8px;
  }
 
-     .menu-container{
+     .menu{
          display: none;
      }
 
