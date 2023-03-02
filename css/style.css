@@ -114,8 +114,7 @@ section.main{
 /*BIOGRAFIA INICIO*/
 
 .caixa{
-    
-    background-image: linear-gradient(-90deg, #3b2020,#2c2b2b);
+    background-image: linear-gradient(-90deg,#942222,#000000);
     padding: 20px 0 ;
    
     color: white;
@@ -237,21 +236,21 @@ section.luta h3{
 
 
 .luta-single-container{
-    background-image: linear-gradient(45deg,    #3b2020,#2c2b2b);
+    background-image: linear-gradient(-50deg,#942222,#000000);
     display: flex;
     align-items: center;
 
 }
 
 .luta-single-container2{
-    background-image: linear-gradient(-45deg,  #3b2020,#2c2b2b);
+    background-image: linear-gradient(50deg,#942222,#000000);
     display: flex;
     align-items: center;
 
 }
 
 .luta-single-container3{
-    background-image: linear-gradient(45deg,  #3b2020,#2c2b2b);
+    background-image: linear-gradient(-50deg,#942222,#000000);
     display: flex;
     align-items: center;
 
