@@ -162,7 +162,18 @@ section.main{
 /*BIOGRAFIA FINAL*/
 
 /*PRINCIPAIS COMPETIÇÕES INICIO*/
+.patrocinio{
+    justify-content: center;
 
+}
+.patrocinio h2{
+    text-align: center;
+    color: white;
+}
+
+.patrocinio ul {
+    text-align: center;
+}
 section.luta{
     
     padding: 20px 0 ;
