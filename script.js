@@ -16,15 +16,3 @@ sr.reveal('.caixa h3', {
     sr.reveal('.caixa p', {
         rotate:{x:0, y:80, z:0}, duration:2500 });
 
-sr.reveal('.luta-single-container', {duration:1800});
-
-sr.reveal('.luta-single-container2', {duration:1800});
-
-sr.reveal('.luta-single-container3', {duration:1800});
-
-
-sr.reveal('.luta-single-container h3', {
-    rotate:{x:0, y:80, z:0}, duration:2000 });
-
-    sr.reveal('.luta-single-container p', {
-        rotate:{x:0, y:80, z:0}, duration:2500 });
