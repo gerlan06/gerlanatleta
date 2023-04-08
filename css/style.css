@@ -345,7 +345,7 @@ footer a{
       box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);}
   
 
-.capa, .caixa h3, .caixa-container, .caixa-container img, .caixa p{
+.caixa h3, .caixa-container, .caixa-container img, .caixa p{
     visibility: hidden;
 }
 
